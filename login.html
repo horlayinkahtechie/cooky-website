@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: rgb(242, 241, 241);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand nav-brand-style"> Shopy</a>
+          <button type="button" class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-label="Toggle navigation" aria-expanded="false"
+            data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-links nav-links">
+              <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+              <li class="nav-item active"><a class="nav-link text-white" href="store.html">Our Store</a>
+              </li>
+              <li class="nav-item active"><a class="nav-link text-white" href="about-us.html">Why choose us</a>
+              </li>
+              <li class="nav-item active"><a class="nav-link text-white" href="about-us.html">About Us</a></li>
+              <li class="nav-item active"><a class="nav-link text-white" href="login.html">Log in</a>
+              </li>
+              <li class="nav-item active"><a class="nav-link text-white" href="#why-choose-us">Sign up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row mt-5" style="background-color: white;">
+            
+            <div class="col-md-7" style="padding-left: 5rem; padding-right: 80px; padding-top: 70px;">
+                <p class="mt-5 login">Log in</p>
+                <input type="text" placeholder="Username" class="input-group form-control-lg" style="outline: none; border-radius: 0; height: 60px;">
+                <input type="password" placeholder="Password" class="input-group form-control-lg mt-4 show-password-input" style="outline: none; border-radius: 0; height: 60px;">
+                <div class="display-flex">
+                    
+                    <input type="checkbox" class="show-password" name="" id="forgot-password" style="width: 15px; height: 15px;">
+                    <p class="remember-password ">&nbsp;Show Password</p>
+                </div>
+                <input type="submit" class="text-center" value="Log in" style="outline: none; border: none; font-size: 22px; text-align: center; border-radius: 0; width: 90%; height: 40px;">
+                <h5 class="dont-have-password">Don't have account? <a href="#">Sign up</a></h5 class="dont-have-password">
+            </div>
+            <div class="col-md-5 p-5">
+                <img src="shopy.webp" class="img-fluid" alt="" width="90%">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="authentication.js"></script>
+</body>
+</html>

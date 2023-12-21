@@ -1,0 +1,464 @@
+body {
+    text-decoration: none;
+}
+
+
+.nav-brand-style {
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.nav-link {
+    padding-top: 17px;
+    font-size: 19px;
+}
+
+.navbar-nav {
+    padding-left: 50px;
+}
+
+.bg-image {
+    position: relative;
+    background-image: url('shoping\ image.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha (fourth) value for transparency */
+}
+
+.text {
+    position: relative;
+    z-index: 1; /* Ensure the text is above the overlay */
+    color: #fff; /* Set the text color to contrast with the overlay */
+}
+
+.hero-paragraph {
+    padding-top: 230px;
+    margin-left: 70px;
+    max-width: 600px;
+}
+
+.hero-text-1  {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.hero-text-2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.decision {
+    font-size: 20px;
+    font-size: arial;
+    color: white;
+    text-decoration: none;
+    line-height: 27px;
+    font-weight: 500;
+    /* width: 600px; */
+}
+
+.down-arrow {
+    position: absolute;
+    top: 85%;
+    left: 100%;
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    /* text-align: center; */
+    border: none;
+    outline: none;
+    color: red;
+    background-color: yellow;
+}
+
+.btn {
+    width: 147px;
+    height: 45px;
+    font-size: 18px;
+    transition: all 0.7s;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: red;
+    transition: all 0.7s;
+}
+
+.why-choose-us-heading {
+    font-size: 23px;
+}
+
+.why-choose-us {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.service-description {
+    text-align: center;
+    line-height: 20px;
+}
+
+.btn-color {
+    background-color: rgb(222, 190, 190);
+}
+
+.space {
+    margin-top: 120px;
+}
+
+.latest-clothes-heading {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.latest-clothes-description {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.testimonials {
+    margin-top: 150px;
+    text-align: center;
+    background-image: url();
+}
+
+.testimonials-img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+
+.testimonial-heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testimoials-text {
+    text-align: center;
+}
+
+.testimonial-heading-top {
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+/* .testimonial-background-img {
+    width: 100%;
+    height: 50%;
+    background-image: url('baby\ cloth.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}  */
+
+.content-1 {
+    position: relative;
+    z-index: 1; 
+    background-image: url('baby\ cloth.webp');
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.content-2 {
+    position: relative;
+    z-index: 1; 
+    background-image: url('men\ cloth.avif');
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.content-3 {
+    position: relative;
+    z-index: 1; 
+    background-image: url('women\ cloth.jpg');
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.content-4 {
+    position: relative;
+    z-index: 1; 
+    background-image: url('jewelry\ image.jpg');
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    background-position: center;
+}
+
+.content-1:hover {
+    width: 260px;
+    height: 260px;
+    transition: all 0.7s;
+}
+
+.content-2:hover {
+    width: 260px;
+    height: 260px;
+    transition: all 0.7s;
+}
+
+.content-3:hover {
+    width: 260px;
+    height: 260px;
+    transition: all 0.7s;
+}
+
+.content-4:hover {
+    width: 260px;
+    height: 260px;
+    transition: all 0.7s;
+}
+
+.our-store {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.our-store-description {
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.title {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+/* .cloth-img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+} */
+
+.shop-with-us {
+    font-size: 28px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: light;
+}
+
+.btn-click {
+    border: none;
+    background-color: white;
+}
+
+.title {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.search-cloth {
+    width: 300px;
+    height: 39px;
+    text-align: center;
+    outline: none;
+    display: inline;
+    font-size: 20px;
+}
+
+.search-btn {
+    width: 90px;
+    height: 39px;
+    outline: none;
+    border: none;
+    font-size: 19px;
+}
+
+.search-btn:hover {
+    background-color: rgb(201, 199, 199);
+}
+
+.center-search {
+    width: 480px;
+    margin: 70px auto;
+    justify-content: center;
+}
+
+.descriptions {
+    font-size: 16.5px;
+    font-weight: 400;
+}
+
+.inline-display-1 {
+    display: inline;
+}
+
+.store-nav {
+    cursor: pointer;
+}
+
+.padding-top {
+    padding-top: 130px;
+}
+
+.about-us-description {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.check-store-btn {
+    background-color: yellow;
+    border: none;
+    width: 210px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+.check-store-btn:hover {
+    background-color: rgb(229, 229, 6);
+    transition: all 0.3s;
+}
+
+.footer-p {
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.cart {
+    font-size: 22px;
+}
+
+.padding {
+    padding: 6px;
+}
+
+.hidden {
+    display: none;
+}
+
+.store-img {
+    width: 170px;
+    height: 170px;
+}
+
+.buttons {
+    min-width: 300px;
+    max-width: 700px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 17px;
+    margin-top: 12px;
+    background-color: rgb(17, 15, 15);
+    color: white;
+}
+
+.a {
+    color: white;
+}
+
+.flex {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.width {
+    max-width: 100%;
+    min-width: 320px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.confirmed {
+    font-size: 19px;
+}
+
+.login {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family:'Mooli', sans-serif;
+    font-family:'Poppins', sans-serif;;
+}
+
+.display-flex {
+    display: flex;
+    margin-top: 20px;
+}
+
+.remember-password {
+    margin-top: -4px;
+}
+
+.dont-have-password {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: light;
+
+}
